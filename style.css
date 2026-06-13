@@ -49,6 +49,10 @@ a {
     
 }
 
+.left-hero {
+    padding-right: 200px;
+    
+}
 .left-hero h1 {
     font-weight: 900;
     color: #f9faf8;
@@ -75,6 +79,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin: 0 250px;
 }
 
 .card {
@@ -114,9 +119,48 @@ button {
     font-weight: 600;
     color: #824300; 
 }
+
+.sign-up {
+    background-color: #A65500;
+    border-radius: 10px;
+    margin: 80px 250px;
+    padding: 50px 300px;
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.action-text {
+    font-size: 28px;
+    
+    
+}
+
+.action-button button {
+    font-size: 28px;
+    border: 2px solid white;
+    padding: 10px 50px;
+    
+}
+
+h3 {
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.action-text p {
+    color:#E5E7EB;
+}
 .footer {
     background-color:#FF8300 ;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 24px;
+    color: #E5E7EB; 
 
 }
 
